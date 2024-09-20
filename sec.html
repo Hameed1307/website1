@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Sidebar Example</title>
+ </head>
+<body>
+
+<div class="sidebar">
+    <h2>MENU</h2>
+    <ul class="list-unstyled">
+        <li><a href="#" class="btn-secondary btn-block">Home</a></li>
+        <li><a href="#" class="btn-secondary btn-block">Dashbord</a></li>
+        <li><a href="#" class="btn-secondary btn-block" id="addclub">Addclub</a></li>
+        <li><a href="#" class="btn-secondary btn-block">Report</a></li>
+    </ul>
+</div>
+<div class="personal-details">
+    <h2>ADD CLUB</h2>
+    <form>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Level</th>
+                    <th>Designation</th>
+                    <th>Domain</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="text" class="form-control form-control-sm" placeholder="Enter Name"></td>
+                    <td><input type="number" class="form-control form-control-sm" placeholder="Enter Level"></td>
+                    <td><input type="text" class="form-control form-control-sm" placeholder="Enter Designation"></td>
+                    <td><input type="text" class="form-control form-control-sm" placeholder="Enter Domain"></td>
+                    <td><input type="number" class="form-control form-control-sm" placeholder="Enter Price"></td>
+                </tr>
+               
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <h2>CLUB DETAILS</h2>
+    <p class="stored data">Enter Name</p>
+    <p class="stored data">Level</p>
+    <p class="stored data">Designation</p>
+    <p class="stored data">Domain</p>
+    <p class="stored data">Price</p>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    overflow-x:hidden;
+    position:sticky;
+    height:100vh;
+    
+}
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    background-color: #f279cc;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+.content {
+    margin-left: 250px;
+    height: 100vh;
+    padding: 20px;
+    background-color: bisque;
+}
+.list-unstyled{
+    font-size: large;
+}
+.personal-details{
+    align-items:start;
+    margin:130px;
+    padding:130px;
+       
+}
+.personal-details h2{
+    background-color: aqua;
+}
+.table{
+    background-color: rgb(96, 172, 243);
+    
+}    
+ 
+   
+ 
